@@ -1,9 +1,9 @@
-// expose.js
+/ expose.js
 
 window.addEventListener('DOMContentLoaded', init);
 
 function init() {
-   const confetti = new JSConfetti(); 
+  const confetti = new JSConfetti(); 
 
   var vol = document.getElementById('volume');
   var volIcon = document.querySelector("#volume-controls img");
@@ -57,3 +57,5 @@ function init() {
         
     finAudio.play(); 
   });
+
+  }
